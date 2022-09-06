@@ -1,0 +1,65 @@
+.bottom-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.time {
+  justify-content: flex-start;
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  padding-right: 70px;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60vw;
+}
+
+.logo {
+  padding-right: 12px;
+}
+
+.title {
+  padding-right: 12px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.domain {
+  color: #64748b;
+}
+
+.content-and-delete {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 567px) {
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
